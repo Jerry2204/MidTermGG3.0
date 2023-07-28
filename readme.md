@@ -60,8 +60,6 @@ http://localhost:3000/api/
 
 ### 1. Products
 
-**Description**: Endpoints for managing products.
-
 | Endpoint                     | Method | Request Body                     | Response Body                         |
 |------------------------------|--------|----------------------------------|---------------------------------------|
 | `/products`                     | GET    | -                                | Array of product objects.                |
@@ -72,8 +70,6 @@ http://localhost:3000/api/
 
 ### 2. Videos
 
-**Description**: Endpoints for managing videos.
-
 | Endpoint                     | Method | Request Body                     | Response Body                         |
 |------------------------------|--------|----------------------------------|---------------------------------------|
 | `/videos`                     | GET    | -                                | Array of video objects.                |
@@ -83,8 +79,6 @@ http://localhost:3000/api/
 | `/videos/:id`                 | DELETE | - | - |
 
 ### 3. Comments
-
-**Description**: Endpoints for managing comments.
 
 | Endpoint                     | Method | Request Body                     | Response Body                         |
 |------------------------------|--------|----------------------------------|---------------------------------------|
