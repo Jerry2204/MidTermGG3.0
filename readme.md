@@ -15,7 +15,7 @@ $ npm run dev
 ```
 4. Now you can access this API
 
-## Database Structure 🦴
+## Database Structure
 
 This project using [MongoDB](https://mongodb.com) as a Database so in other words , we use NoSQL and the structure gonna be collections and documents.
 
@@ -50,7 +50,7 @@ This project using [MongoDB](https://mongodb.com) as a Database so in other word
 |createdAt| Date |
 |updatedAt| Date |
 
-## API Structure 🧠
+## API Structure
 
 ### Base URL 
 ```
