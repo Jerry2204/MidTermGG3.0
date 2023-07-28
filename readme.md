@@ -3,9 +3,9 @@
 ## How to Install This Project
 1. Clone this repository first
 ```
-$ git clone https://github.com/expressjs/expressjs.com.git
+$ git clone https://github.com/Jerry2204/MidTermGG3.0.git
 ```
-2. Install the depedency for install the node_modules
+2. Install the depedency
 ```
 $ npm install
 ```
