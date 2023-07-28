@@ -21,7 +21,7 @@ This project using [MongoDB](https://mongodb.com) as a Database so in other word
 
 ### Products Collection
 
-| Field Name  | Type | Description |
+| Field Name  | Type |
 | ------------- |:-------------:|
 |_id | ObjectID |
 | title      | String     |
