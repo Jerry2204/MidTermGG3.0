@@ -17,8 +17,6 @@ $ npm run dev
 
 ## Database Structure
 
-This project using [MongoDB](https://mongodb.com) as a Database so in other words , we use NoSQL and the structure gonna be collections and documents.
-
 ### Products Collection
 
 | Field Name  | Type |
