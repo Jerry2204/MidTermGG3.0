@@ -20,6 +20,11 @@ app.use(express.json());
 app.use(cors());
 
 // connector(process.env.MONGO_URL);
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+};
 
 mongoose.connect(
   process.env.MONGO_URL,
