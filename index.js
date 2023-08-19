@@ -2,7 +2,7 @@ import express from 'express';
 
 import 'dotenv/config';
 
-import connector from './services/db/connector.js';
+// import connector from './services/db/connector.js';
 
 import withError from './utils/response/withError.js';
 
@@ -18,7 +18,16 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-connector(process.env.MONGO_URL);
+// connector(process.env.MONGO_URL);
+
+mongoose.connect(
+  process.env.MONGO_URL,
+  options,
+  (err) => {
+   if(err) console.log(err) 
+   else console.log("mongdb is connected");
+  }
+);
 
 app.use('/api/video', VideoRouter);
 app.use('/api/comment', CommentRouter);
