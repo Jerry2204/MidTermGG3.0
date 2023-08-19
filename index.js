@@ -19,6 +19,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+console.log(process.env.MONGO_URL);
+
 connector(process.env.MONGO_URL);
 // const options = {
 //   useNewUrlParser: true,
