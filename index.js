@@ -21,7 +21,11 @@ app.use(cors());
 
 console.log(process.env.MONGO_URL);
 
-connector(process.env.MONGO_URL);
+try {
+  await connector(process.env.MONGO_URL);
+} catch (error) {
+  handleError(error);
+}
 // const options = {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
@@ -32,7 +36,7 @@ connector(process.env.MONGO_URL);
 //   process.env.MONGO_URL,
 //   options,
 //   (err) => {
-//    if(err) console.log(err) 
+//    if(err) console.log(err)
 //    else console.log("mongdb is connected");
 //   }
 // );
